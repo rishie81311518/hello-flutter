@@ -13,20 +13,25 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.teal,
-            title: const Text('Flutter Developer'),
+            title: const Text(
+              'Rishie',
+              style: TextStyle(
+                  fontSize: 50,
+                  fontFamily: 'Pacifico',
+                  fontWeight: FontWeight.w100),
+            ),
           ),
           body: SafeArea(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('Rishie'),
-                    Icon(Icons.ac_unit),
-                    Text('Rishie'),
-                  ],
+                const Text(
+                  'Rishie',
+                  style: TextStyle(
+                      fontSize: 50,
+                      fontFamily: 'Pacifico',
+                      fontWeight: FontWeight.w100),
                 ),
                 Container(
                   height: 100,
